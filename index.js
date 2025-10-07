@@ -60,11 +60,12 @@ function canDrive(name, age) {
 console.log(canDrive("Janet", 21));
 console.log(canDrive("Ian", 15));
 
-// function canDrive2(name, age){
+function canDrive2(name, age){
 if (age >= 18) {
   return name + "is old enough to drive";
 } else {
   return name + "is not old enough to drive";
+}
 }
 
 console.log(canDrive("Kioko", 21));

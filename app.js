@@ -1,0 +1,1 @@
+const heading1 = document.getElementById("heading1")
